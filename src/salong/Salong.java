@@ -14,13 +14,14 @@ public class Salong {
 		String liige = "";
 
 		Juuksev2rv varv = new Juuksev2rv(); // varv on Juuksev2rv klassiobjekt
-		System.out.println("ilusam :)?");
+		System.out.println("Tere tulemast!");
+		System.out.println("Soovite juukseid värvida?");
 		String sKasVarvime = TextIO.getlnString();
 
 		if (sKasVarvime.equals("Jah")) {
-			System.out.println("Davai värvime:" + varv.juuksev2rv()); //
+			System.out.println("Sinu uus juuksevärv on: " + varv.juuksev2rv()); //
 		} else {
-			System.out.println("Davai siis tõmba nahhui");
+			System.out.println("Selge, teinekord");
 		}
 
 		while (true) {
